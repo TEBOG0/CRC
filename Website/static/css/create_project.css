@@ -1,0 +1,53 @@
+.container {
+    width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 20px 15px;
+    background: #f8f9fa;
+    width: 100%;
+}
+
+    .card h2 {
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+
+.btn-primary {
+    background-color: #4CAF50;
+    border: none;
+    margin: auto;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-primary:hover {
+        background-color: #45a049;
+    }
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    margin: auto;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+    }
+
+textarea {
+    resize: none;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-md-6 {
+        width: 100%;
+    }
+}

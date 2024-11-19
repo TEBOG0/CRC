@@ -1,0 +1,63 @@
+.our-work-main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.our-work-intro {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.our-work-image-container {
+    flex-basis: 40%;
+}
+
+.our-work-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.our-work-description {
+    flex-basis: 50%;
+}
+
+    .our-work-description h1 {
+        font-size: 2.5rem;
+        color: #333;
+    }
+
+    .our-work-description p {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #555;
+    }
+
+.our-work-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.project {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+    .project h3 {
+        font-weight: bold;
+        color: #1f2128;
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .project p {
+        font-size: 16px;
+        font-weight: 500;
+    }

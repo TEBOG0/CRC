@@ -1,0 +1,141 @@
+﻿/* Main container for the donation form */
+
+header a {
+    padding: 7px 20px;
+    border-radius: 20px;
+    position: fixed;
+    color: #343a40;
+    font-size: 20px;
+    left: 25px;
+    top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.donate-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+    /* Headings */
+    .donate-container h2,
+    .donate-container legend {
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin: 20px auto;
+        color: #007bff;
+        text-align: center;
+    }
+
+
+    .donate-container p{
+        text-align: center;
+    }
+
+    .donate-container p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+        color: #555;
+    }
+
+/* Form structure */
+.donation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: stretch;
+}
+
+/* Form labels and inputs */
+label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin: 7px;
+    text-align: left;
+    margin-left: 5px;
+    flex-basis: 100%;
+}
+
+input, textarea, select{
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    /* Textarea */
+    textarea {
+        resize: vertical;
+    }
+
+/* Fieldset for payment details */
+fieldset {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Card details section */
+.card-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+    .card-details input {
+        flex: 1;
+    }
+
+#card-number {
+    letter-spacing: 2px;
+}
+
+
+/* Button */
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    max-width: 70%;
+    margin: 10px auto;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+/* Disclaimer */
+.disclaimer {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 20px;
+}
+
+/* Responsive design for smaller devices */
+@media (max-width: 768px) {
+    .donate-container {
+        padding: 20px;
+    }
+
+    .card-details {
+        flex-direction: column;
+    }
+
+        .card-details input {
+            width: 100%;
+        }
+}

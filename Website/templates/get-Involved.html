@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/styles.css">
+    <link rel="stylesheet" href="Css/get-Involved.css">
+    <title>CRC (Setshaba Research Centre)</title>
+</head>
+<body>
+    <header>
+        <a href="Home.html" class="back-button" aria-label="Go back">
+            <img src="Assets/Icons/angle-left-solid.svg" alt="Back Icon">
+        </a>
+    </header>
+
+    <main>
+        <div class="sub-heading">
+            <h3>Register</h3>
+            <h4>Create your new account here & join us</h4>
+        </div>
+        <form action="Home.html" method="post" class="registration-form" id="registration-form">
+            <div class="form-container">
+                <div class="name-fields">
+                    <input required type="text" placeholder="First Name*" />
+                    <input required type="text" placeholder="Last Name*" />
+                </div>
+                <input required type="text" placeholder="User ID*" />
+                <input required type="email" placeholder="Email*" />
+                <input required type="tel" placeholder="Phone Number*" />
+                <input required type="password" placeholder="Password*" />
+                <select class="country-select">
+                    <option>---select country---</option>
+                    <option>South Africa</option>
+                    <option>United States</option>
+                    <option>England</option>
+                    <option>China</option>
+                </select>
+                <div class="terms-conditions">
+                    <input id="terms" required type="checkbox" />
+                    <label for="terms">*I accept the Terms of Use Conditions & Privacy Policy</label>
+                </div>
+                <div class="form-buttons">
+                    <button type="reset" class="reset-button">Reset Values</button>
+                    <button type="submit" id="submit-button" class="submit-button">Join Now</button>
+                </div>
+            </div>
+        </form>
+        <p id="notification" class="notification hidden">Thank you! We will be in touch soon.</p>
+    </main>
+
+    <aside>
+
+    </aside>
+    <script src="Js/Script.js"></script>
+</body>
+</html>
